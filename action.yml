@@ -55,7 +55,6 @@ inputs:
     description: 'Whether to wait for the App Runner service to reach stable state after deploying the new task definition. Valid value is "true". Will default to not waiting.'
     required: false
     default: 'false'
-    deprecationMessage: 'This input parameter will be removed in a future release - use "wait-for-service-stability-seconds", which allows you to control the timeout duration'
   wait-for-service-stability-seconds:
     description: '(Optional) Timeout in seconds to wait for the service deployment process to complete. The default is 600 seconds if "wait-for-service-stability" is set to true and there is no "wait-for-service-stability-seconds" parameter value specified.'
     required: false
